@@ -1,21 +1,23 @@
 # Alex Lee — Portfolio
 
-A self-contained personal portfolio with nine English-language views, editorial styling, continuous scroll choreography, and a six-second interactive HyperFrames handover composition.
+A personal portfolio with nine English views, editorial styling, continuous scrolling, an interactive HyperFrames handover, and a working contact form.
 
-## View
+## Visit
 
-Open `index.html` directly in a browser, or serve this repository through GitHub Pages. All website views, CSS, JavaScript, fonts, and animation runtime are embedded in that one file. No build step, package installation, CDN, or backend is required.
+[Open the portfolio](https://alex20030220-gif.github.io/My-Portfolio-/#/) · [Contact Alex](https://alex20030220-gif.github.io/My-Portfolio-/#/contact/)
 
-Navigation uses hash routes so it works under a repository URL. The handover sequence supports scroll playback, replay, a manual playhead, and a static view. Smaller screens use a natural-flow layout. Reduced-motion preferences and the page's motion toggle provide a fully readable static experience.
+## Website
 
-## Contents
+`index.html` includes all frontend views, CSS, JavaScript, fonts, and animation runtime. No frontend build or CDN is required. Navigation uses hash routes and works under the GitHub Pages repository URL. The handover supports replay, a manual playhead, and static viewing; smaller screens and reduced-motion preferences receive a readable layout.
 
-- `index.html`: the complete current website, including the scrolling and HyperFrames features.
-- `licenses/`: licences for the embedded Hanken Grotesk and Literata fonts. The GSAP distribution retains its licence header in the HTML.
-- Existing uploaded photographs are retained unchanged.
+## Contact enquiries
 
-## Content notes
+The contact page collects a name, email, optional phone number, and request, with permission to follow up. A Supabase Edge Function validates submissions and stores them in the private `contact_requests` table. Visitors cannot read stored messages. Review enquiries in the [Supabase Table Editor](https://supabase.com/dashboard/project/vhxubphfoqryqsbfrgpk/editor).
 
-The service offerings are provisional. LinkedIn is omitted until a public URL is confirmed. Project specimens are labelled portfolio interpretations, not live customer records or original client screenshots. Revoir is presented as pre-launch.
+See [CONTACT-FORM.md](CONTACT-FORM.md) for inbox instructions and the backend source in `supabase/`. Automatic email notifications are not enabled; Alex chose to read messages in Supabase.
 
-Public contact: yung-hsin.lee@ehl.ch.
+## Licences and content
+
+`licenses/` contains the licences for embedded Hanken Grotesk and Literata. GSAP retains its licence header in the HTML. Existing photographs are preserved.
+
+The service offerings are provisional. LinkedIn is omitted until confirmed. Project specimens are portfolio interpretations. Revoir is pre-launch. Public contact: yung-hsin.lee@ehl.ch.

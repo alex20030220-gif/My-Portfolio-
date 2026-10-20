@@ -1,0 +1,4 @@
+[functions.portfolio-contact]
+# Public visitors can submit without a Supabase account. Validation, throttling,
+# and private database access are handled inside the function.
+verify_jwt = false
